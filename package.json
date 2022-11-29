@@ -4,7 +4,7 @@
   "description": "Advent of Code 2022!",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "node --loader 'ts-node/esm' src/run-tests.ts"
   },
   "author": "Brian David <beejunk@gmail.com>",
   "license": "MIT",

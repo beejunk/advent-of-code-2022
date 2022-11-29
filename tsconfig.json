@@ -1,5 +1,8 @@
 {
   "extends": "@tsconfig/node18-strictest-esm/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true
+  },
   "ts-node": {
     "esm": true
   }
